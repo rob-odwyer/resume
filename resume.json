@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Rob O'Dwyer",
+    "label": "Full-stack Software Developer",
+    "summary": "TODO: summary",
+    "email": "rob@odwyer.cc",
+    "phone": "(250) 891-6649",
+    "website": "http://odwyer.cc",
+    "summary": "",
+    "location": {
+      "city": "Victoria",
+      "countryCode": "CA",
+      "region": "BC"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "robbles",
+        "url": "https://github.com/robbles"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "robbles",
+        "url": "https://stackoverflow.com/users/279089/robbles"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Pretio Interactive",
+      "position": "CTO",
+      "website": "https://pretiointeractive.com",
+      "startDate": "2013-06-01",
+      "endDate": "2017-07-21",
+      "summary": "Pretio Interactive combines machine-learning and real-time consumer interaction to serve personalized ads that help marketers excel at customer acquisition.",
+      "highlights": [
+        "Recruited and trained development team while building the initial technology platform for Pretio's advertising network",
+        "Researched and implemented online machine learning techniques to optimize profitability"
+      ]
+    },
+    {
+      "company": "Alacrity Foundation",
+      "position": "Entrepreneurship Student",
+      "startDate": "2011-05-01",
+      "endDate": "2013-06-01",
+      "summary": "The Entrepreneurship@Alacrity program provides an intense training  environment to prepare graduates for entrepreneurship in the technology sector.",
+      "highlights": [
+        "Worked with founding team of RewardsDen to develop the team and technology that later became Pretio Interative."
+      ]
+    },
+    {
+      "company": "PDFTron",
+      "position": "Software Developer",
+      "startDate": "2011-06-01",
+      "endDate": "2011-08-31",
+      "summary": "Worked on developing an HTML5 / Javascript application and SDK for document viewing and processing.",
+      "highlights": [
+        "Researched new HTML5 standards (e.g. Canvas, File APIs, Web Fonts) and browser compatibility issues to develop a high-performance and usable system."
+      ]
+    },
+    {
+      "company": "Dolby Laboratories",
+      "position": "R&D Engineer Co-op",
+      "startDate": "2009-05-01",
+      "endDate": "2009-08-31",
+      "summary": "Developed various methods of testing and measuring the performance of an image processing algorithm written by a previous co-op student in MATLAB",
+      "highlights": [
+        "Learned and applied color science to algorithm designs.",
+        "Implemented extensions based on this algorithm to a real-time image processing pipeline in C."
+      ]
+    },
+    {
+      "company": "BC Children's Hospital, Vancouver",
+      "position": "Hardware/Software Interfacing Engineer",
+      "startDate": "2008-09-01",
+      "endDate": "2008-12-15",
+      "summary": "Developed a plugin to interface between the network and serial protocols of a medical monitoring device and the iAssist decision support software."
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "University of Victoria",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "MASc",
+      "startDate": "2012-09-01",
+      "endDate": "2017-06-14"
+    },
+    {
+      "institution": "University of British Columbia",
+      "area": "Computer Engineering",
+      "studyType": "BASc",
+      "startDate": "2006-09-01",
+      "endDate": "2011-09-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "VIATEC Employee of the Year",
+      "date": "2016-06-24",
+      "awarder": "VIATEC",
+      "summary": "(with Aurora Walker)"
+    }
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Front-end / Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Go",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Docker",
+        "Ansible",
+        "Amazon Web Services (AWS)"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": [
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "AWS Redshift",
+        "DynamoDB"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Long distance running"
+    },
+    {
+      "name": "Rock climbing"
+    },
+    {
+      "name": "Hobbiest electronics / Physical computing"
+    }
+  ],
+  "references": [
+  ]
+}
