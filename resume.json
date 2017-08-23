@@ -2,11 +2,10 @@
   "basics": {
     "name": "Rob O'Dwyer",
     "label": "Full-stack Software Developer",
-    "summary": "TODO: summary",
+    "summary": "I'm a full-stack software developer with experience in building a startup company's tech stack from the ground up. I'm particularly interested in scalable distributed systems, machine learning, and infrastructure / DevOps.",
     "email": "rob@odwyer.cc",
-    "phone": "(250) 891-6649",
+    "picture": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
     "website": "http://odwyer.cc",
-    "summary": "",
     "location": {
       "city": "Victoria",
       "countryCode": "CA",
@@ -45,7 +44,7 @@
       "endDate": "2013-06-01",
       "summary": "The Entrepreneurship@Alacrity program provides an intense training  environment to prepare graduates for entrepreneurship in the technology sector.",
       "highlights": [
-        "Worked with founding team of RewardsDen to develop the team and technology that later became Pretio Interative."
+        "Worked with founding team of RewardsDen to develop the team and technology that later became Pretio Interactive."
       ]
     },
     {
@@ -97,10 +96,9 @@
   ],
   "awards": [
     {
-      "title": "VIATEC Employee of the Year",
+      "title": "Employee of the Year (with Aurora Walker)",
       "date": "2016-06-24",
-      "awarder": "VIATEC",
-      "summary": "(with Aurora Walker)"
+      "awarder": "VIATEC"
     }
   ],
   "publications": [
@@ -108,16 +106,15 @@
   "skills": [
     {
       "name": "Front-end / Web Development",
-      "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "React"
       ]
     },
     {
       "name": "Back-end Development",
-      "level": "Master",
       "keywords": [
         "Python",
         "Go",
@@ -126,21 +123,19 @@
     },
     {
       "name": "DevOps",
-      "level": "Intermediate",
       "keywords": [
+        "Amazon Web Services (AWS)",
         "Docker",
-        "Ansible",
-        "Amazon Web Services (AWS)"
+        "Ansible"
       ]
     },
     {
       "name": "Databases",
-      "level": "Intermediate",
       "keywords": [
         "MySQL",
-        "Redis",
         "PostgreSQL",
         "AWS Redshift",
+        "Redis",
         "DynamoDB"
       ]
     }
@@ -159,9 +154,7 @@
       "name": "Rock climbing"
     },
     {
-      "name": "Hobbiest electronics / Physical computing"
+      "name": "Hobbiest electronics"
     }
-  ],
-  "references": [
   ]
 }
