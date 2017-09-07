@@ -5,7 +5,7 @@
     "summary": "I'm a full-stack software developer with experience in building a startup company's tech stack from the ground up. I'm particularly interested in scalable distributed systems, machine learning, and infrastructure / DevOps.",
     "email": "rob@odwyer.cc",
     "picture": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
-    "website": "http://odwyer.cc",
+    "website": "http://rob.odwyer.cc",
     "location": {
       "city": "Victoria",
       "countryCode": "CA",
@@ -31,15 +31,16 @@
       "website": "https://pretiointeractive.com",
       "startDate": "2013-06-01",
       "endDate": "2017-07-21",
-      "summary": "Pretio Interactive combines machine-learning and real-time consumer interaction to serve personalized ads that help marketers excel at customer acquisition.",
+      "summary": "Part of the founding team and responsible for developing Pretio's core technology and growing the development team. Pretio Interactive combines machine-learning and real-time consumer interaction to serve personalized ads that help marketers excel at customer acquisition.",
       "highlights": [
-        "Recruited and trained development team while building the initial technology platform for Pretio's advertising network",
-        "Researched and implemented online machine learning techniques to optimize profitability"
+        "Recruited and trained development team while building the technology platform for Pretio's advertising network.",
+        "Designed and built a high throughput HTTP server in Go for integrating into real-time bidding networks, and successfully scaled it to operate at 10K req/sec.",
+        "Researched and implemented online machine learning techniques to optimize profitability."
       ]
     },
     {
-      "company": "Alacrity Foundation",
-      "position": "Entrepreneurship Student",
+      "company": "Entrepreneurship@Alacrity",
+      "position": "Software Engineer",
       "startDate": "2011-05-01",
       "endDate": "2013-06-01",
       "summary": "The Entrepreneurship@Alacrity program provides an intense training  environment to prepare graduates for entrepreneurship in the technology sector.",
@@ -96,8 +97,7 @@
   ],
   "awards": [
     {
-      "title": "Employee of the Year (with Aurora Walker)",
-      "date": "2016-06-24",
+      "title": "Employee of the Year 2016 (with Aurora Walker)",
       "awarder": "VIATEC"
     }
   ],
@@ -105,26 +105,27 @@
   ],
   "skills": [
     {
-      "name": "Front-end / Web Development",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React"
-      ]
-    },
-    {
       "name": "Back-end Development",
       "keywords": [
         "Python",
         "Go",
-        "Javascript"
+        "JavaScript (node.js)",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Front-end / Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
       ]
     },
     {
       "name": "DevOps",
       "keywords": [
-        "Amazon Web Services (AWS)",
+        "Amazon Web Services",
         "Docker",
         "Ansible"
       ]
@@ -135,8 +136,14 @@
         "MySQL",
         "PostgreSQL",
         "AWS Redshift",
-        "Redis",
-        "DynamoDB"
+        "Redis"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "scikit-learn",
+        "TensorFlow"
       ]
     }
   ],
