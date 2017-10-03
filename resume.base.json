@@ -5,7 +5,8 @@
     "summary": "I'm a full-stack software developer with experience in building a startup company's tech stack from the ground up. I'm particularly interested in scalable distributed systems, machine learning, and infrastructure / DevOps.",
     "email": "rob@odwyer.cc",
     "picture": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
-    "website": "http://rob.odwyer.cc",
+    "website": "https://rob.odwyer.cc",
+    "phone": "(250) 891-6649",
     "location": {
       "city": "Victoria",
       "countryCode": "CA",
@@ -31,19 +32,19 @@
       "website": "https://pretiointeractive.com",
       "startDate": "2013-06-01",
       "endDate": "2017-07-21",
-      "summary": "Part of the founding team and responsible for developing Pretio's core technology and growing the development team. Pretio Interactive combines machine-learning and real-time consumer interaction to serve personalized ads that help marketers excel at customer acquisition.",
+      "summary": "Part of the founding team and responsible for developing Pretio's core technology and growing the development team. Pretio Interactive is an ad-tech startup that combines machine learning and consumer preferences to serve personalized ads.",
       "highlights": [
         "Recruited and trained development team while building the technology platform for Pretio's advertising network.",
-        "Designed and built a high throughput HTTP server in Go for integrating into real-time bidding networks, and successfully scaled it to operate at 10K req/sec.",
+        "Designed and built a high throughput HTTP server in Go for integrating into real-time bidding networks, and successfully scaled it to operate at 10K requests/second.",
         "Researched and implemented online machine learning techniques to optimize profitability."
       ]
     },
     {
       "company": "Entrepreneurship@Alacrity",
       "position": "Software Engineer",
-      "startDate": "2011-05-01",
+      "startDate": "2011-09-01",
       "endDate": "2013-06-01",
-      "summary": "The Entrepreneurship@Alacrity program provides an intense training  environment to prepare graduates for entrepreneurship in the technology sector.",
+      "summary": "The Entrepreneurship@Alacrity program provides an intense training environment to prepare graduates for entrepreneurship in the technology sector.",
       "highlights": [
         "Worked with founding team of RewardsDen to develop the team and technology that later became Pretio Interactive."
       ]
@@ -60,7 +61,7 @@
     },
     {
       "company": "Dolby Laboratories",
-      "position": "R&D Engineer Co-op",
+      "position": "R&D Engineer (Co-op)",
       "startDate": "2009-05-01",
       "endDate": "2009-08-31",
       "summary": "Developed various methods of testing and measuring the performance of an image processing algorithm written by a previous co-op student in MATLAB",
@@ -71,10 +72,14 @@
     },
     {
       "company": "BC Children's Hospital, Vancouver",
-      "position": "Hardware/Software Interfacing Engineer",
+      "position": "Hardware/Software Interfacing Engineer (Co-op)",
       "startDate": "2008-09-01",
       "endDate": "2008-12-15",
-      "summary": "Developed a plugin to interface between the network and serial protocols of a medical monitoring device and the iAssist decision support software."
+      "summary": "Developed a Java plugin to interface between the network and serial protocols of a medical monitoring device and the iAssist decision support software.",
+      "highlights": [
+        "Implemented a network protocol and DHCP server from specifications provided by the device manufacturer.",
+        "Fixed bugs and added compatibility with more devices with real-world usage and feedback from research team."
+      ]
     }
   ],
   "volunteer": [
@@ -129,21 +134,76 @@
         "Docker",
         "Ansible"
       ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "BattleSnake 2016",
+      "position": "Volunteer Platform Developer",
+      "website": "https://www.battlesnake.io/",
+      "startDate": "2015-11-01",
+      "endDate": "2016-02-20",
+      "summary": "Helped update the platform for the BattleSnake programming competition, and acted as a mentor for junior developers at the event."
+    },
+    {
+      "organization": "Ladies Learning Code",
+      "position": "Volunteer Mentor",
+      "startDate": "2015-09-26",
+      "endDate": "2017-09-23",
+      "website": "http://ladieslearningcode.com/chapters/victoria/",
+      "summary": "Mentored new developers at 3 workshops in 2015, 2016, 2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "Go",
+        "JavaScript (node.js)",
+        "Ruby",
+        "Java",
+        "PHP",
+        "C/C++"
+      ]
     },
     {
       "name": "Databases",
       "keywords": [
         "MySQL",
         "PostgreSQL",
-        "AWS Redshift",
-        "Redis"
+        "Redshift",
+        "Redis",
+        "Elasticsearch"
       ]
     },
     {
-      "name": "Machine Learning",
+      "name": "DevOps Tools / Operations",
       "keywords": [
+        "Docker",
+        "Ansible",
+        "Amazon Web Services (AWS)",
+        "Statsd",
+        "Logstash"
+      ]
+    },
+    {
+      "name": "Front-End",
+      "keywords": [
+        "HTML/CSS",
+        "JavaScript",
+        "React",
+        "jQuery",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [
+        "Pandas / numpy",
+        "Jupyter",
         "scikit-learn",
-        "TensorFlow"
+        "Spark"
       ]
     }
   ],
