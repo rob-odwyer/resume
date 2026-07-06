@@ -1,3 +1,4 @@
 *.html
 *.pdf
-resume.json
+resume-old
+node_modules

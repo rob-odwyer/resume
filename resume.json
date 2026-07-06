@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "theme": "@jsonresume/jsonresume-theme-consultant-polished"
+  },
+  "basics": {
+    "name": "Rob O'Dwyer",
+    "label": "Full-stack Software Developer",
+    "image": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
+    "email": "odwyerrob@gmail.com",
+    "phone": "(250) 891-6649",
+    "summary": "I'm a full-stack software developer with experience in building a startup company's tech stack from the ground up. I'm particularly interested in optimizing software development with AI, machine learning, and infrastructure / DevOps.",
+    "location": {
+      "city": "Victoria",
+      "countryCode": "CA",
+      "region": "BC"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "rob-odwyer",
+        "url": "https://github.com/rob-odwyer"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "rob-o-dwyer-5b378714",
+        "url": "https://www.linkedin.com/in/rob-o-dwyer-5b378714/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Whalesync",
+      "position": "Software Engineer",
+      "url": "https://www.whalesync.com",
+      "startDate": "2022-01-01",
+      "summary": "Used generative AI for a series of tools that automate the process of syncing and reviewing automated agent changes to content.",
+      "highlights": []
+    },
+    {
+      "name": "DevCycle",
+      "position": "Senior Software Engineer",
+      "startDate": "2023-03-01",
+      "endDate": "2024-01-01",
+      "summary": "Implemented SDKs in multiple languages, and profiled and optimized the Go SDK to meet low latency requirements.",
+      "highlights": []
+    },
+    {
+      "name": "Battlesnake",
+      "position": "Senior Software Developer",
+      "startDate": "2021-08-01",
+      "endDate": "2023-03-01",
+      "summary": "Responsible for developing and scaling of Battlesnake game engine server and global proxy system.",
+      "highlights": [
+        "Built out a global multi-datacenter proxy system to calculate player latency more equitably."
+      ]
+    },
+    {
+      "name": "Workday",
+      "position": "Principal Software Engineer",
+      "startDate": "2017-11-01",
+      "endDate": "2021-08-01",
+      "summary": "Developed cloud services for processing video and interactive learning content",
+      "highlights": [
+        "Led the migration of a production service along with customer data from the Workday datacenter to AWS.",
+        "Set up and trained a new developer team in Dublin, Ireland."
+      ]
+    },
+    {
+      "name": "Pretio Interactive",
+      "position": "CTO",
+      "url": "https://pretiointeractive.com",
+      "startDate": "2013-06-01",
+      "endDate": "2017-07-21",
+      "summary": "Part of the founding team and responsible for developing Pretio's core technology and growing the development team. Pretio Interactive was an ad-tech startup that combined machine learning and consumer preferences to serve personalized ads.",
+      "highlights": [
+        "Recruited and trained development team while building the technology platform for Pretio's advertising network.",
+        "Designed and built a high throughput HTTP server in Go for integrating into real-time bidding networks, and successfully scaled it to operate at 10K requests/second.",
+        "Researched and implemented online machine learning techniques to optimize profitability."
+      ]
+    },
+    {
+      "name": "Entrepreneurship@Alacrity",
+      "position": "Software Engineer",
+      "startDate": "2011-09-01",
+      "endDate": "2013-06-01",
+      "summary": "The Entrepreneurship@Alacrity program provided an intense training environment to prepare graduates for entrepreneurship in the technology sector.",
+      "highlights": [
+        "Worked with founding team of RewardsDen to develop the team and technology that later became Pretio Interactive."
+      ]
+    },
+    {
+      "name": "Co-op Program Positions",
+      "position": "Software Developer / R&D Engineer",
+      "startDate": "2008-09-01",
+      "endDate": "2011-08-31",
+      "summary": "Completed multiple co-op placements during undergraduate studies at UBC.",
+      "highlights": [
+        "PDFTron: Developed an HTML5 / Javascript application and SDK for document viewing and processing. Researched new HTML5 standards (e.g. Canvas, File APIs, Web Fonts) and browser compatibility issues.",
+        "Dolby Laboratories: Developed methods of testing and measuring the performance of an image processing algorithm in MATLAB. Applied color science to algorithm designs and implemented extensions to a real-time image processing pipeline in C.",
+        "BC Children's Hospital: Developed a Java plugin to interface between network and serial protocols of a medical monitoring device and the iAssist decision support software. Implemented a network protocol and DHCP server from device manufacturer specifications."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "BattleSnake 2016",
+      "position": "Volunteer Platform Developer",
+      "url": "https://www.battlesnake.io/",
+      "startDate": "2015-11-01",
+      "endDate": "2016-02-20",
+      "summary": "Helped update the platform for the BattleSnake programming competition, and acted as a mentor for junior developers at the event."
+    },
+    {
+      "organization": "Ladies Learning Code",
+      "position": "Volunteer Mentor",
+      "url": "http://ladieslearningcode.com/chapters/victoria/",
+      "startDate": "2015-09-26",
+      "endDate": "2017-09-23",
+      "summary": "Mentored new developers at 3 workshops in 2015, 2016, 2017."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Victoria",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "MASc",
+      "startDate": "2012-09-01",
+      "endDate": "2017-06-14"
+    },
+    {
+      "institution": "University of British Columbia",
+      "area": "Computer Engineering",
+      "studyType": "BASc",
+      "startDate": "2006-09-01",
+      "endDate": "2011-09-01"
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "Go",
+        "Typescript",
+        "Javascript",
+        "Node.js",
+        "Java",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Cloud and DevOps",
+      "keywords": [
+        "Docker",
+        "Terraform",
+        "Amazon Web Services (AWS)",
+        "Google Cloud Platform (GCP)",
+        "Kubernetes",
+        "GitHub Actions",
+        "GitLab"
+      ]
+    },
+    {
+      "name": "Front-End",
+      "keywords": [
+        "HTML/CSS",
+        "Typescript/JavaScript",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Long distance running"
+    },
+    {
+      "name": "Rock climbing"
+    },
+    {
+      "name": "Hobbiest electronics"
+    }
+  ],
+  "references": [],
+  "projects": [
+  ]
+}
