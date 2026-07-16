@@ -4,11 +4,11 @@
   },
   "basics": {
     "name": "Rob O'Dwyer",
-    "label": "Full-stack Software Developer",
+    "label": "Senior Software Engineer: AI Engineering & Cloud Infrastructure",
     "image": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
     "email": "odwyerrob@gmail.com",
     "phone": "(250) 891-6649",
-    "summary": "I'm a full-stack software developer with experience in building a startup company's tech stack from the ground up. I'm particularly interested in optimizing software development with AI, machine learning, and infrastructure / DevOps.",
+    "summary": "Software engineer with 15+ years of experience spanning startup CTO, Principal Engineer at Workday, and independent infrastructure consulting.",
     "location": {
       "city": "Victoria",
       "countryCode": "CA",
@@ -30,19 +30,37 @@
   "work": [
     {
       "name": "Whalesync",
-      "position": "Software Engineer",
+      "position": "Senior Software Engineer",
       "url": "https://www.whalesync.com",
-      "startDate": "2022-01-01",
-      "summary": "Used generative AI for a series of tools that automate the process of syncing and reviewing automated agent changes to content.",
-      "highlights": []
+      "startDate": "2025-02-01",
+      "summary": "Owned multiple product and infrastructure projects end to end.",
+      "highlights": [
+        "Migrated sync integrations to new infra using an AI-assisted harness with automated validation of production data",
+        "Researched and developed generative AI-powered features to streamline the experience of setting up a Whalesync sync"
+      ]
+    },
+    {
+      "name": "Independent Consultant",
+      "position": "Cloud Infrastructure & DevOps",
+      "startDate": "2024-01-01",
+      "endDate": "2025-02-01",
+      "summary": "Led cloud-based infrastructure migrations for three startups",
+      "highlights": [
+        "Migrated Whalesync's production and staging infrastructure from AWS to GCP with no downtime",
+        "Built an automated deploy pipeline on AWS for WATS",
+        "Built automated deploy pipelines and observability tooling for OtherSphere"
+      ]
     },
     {
       "name": "DevCycle",
       "position": "Senior Software Engineer",
       "startDate": "2023-03-01",
       "endDate": "2024-01-01",
-      "summary": "Implemented SDKs in multiple languages, and profiled and optimized the Go SDK to meet low latency requirements.",
-      "highlights": []
+      "summary": "Implemented SDKs in multiple languages, built new features for the DevCycle feature flag platform, and maintained DevCycle and Taplytics infrastructure",
+      "highlights": [
+        "Worked closely with a large customer to optimize the Go SDK for their low-latency usecase, and succeeded in achieving the goal of sub 50 nanosecond 90th percentile lookups in production.",
+        "Built automated release pipelines on Github Actions for Go, Python, Javascript, and Java SDKs to maximize platform compatibility."
+      ]
     },
     {
       "name": "Battlesnake",
@@ -51,7 +69,8 @@
       "endDate": "2023-03-01",
       "summary": "Responsible for developing and scaling of Battlesnake game engine server and global proxy system.",
       "highlights": [
-        "Built out a global multi-datacenter proxy system to calculate player latency more equitably."
+        "Built out a global multi-datacenter proxy system to calculate player latency more equitably.",
+        "Engaged with the active Battlesnake developer community through open source and community discussions."
       ]
     },
     {
@@ -95,28 +114,10 @@
       "endDate": "2011-08-31",
       "summary": "Completed multiple co-op placements during undergraduate studies at UBC.",
       "highlights": [
-        "PDFTron: Developed an HTML5 / Javascript application and SDK for document viewing and processing. Researched new HTML5 standards (e.g. Canvas, File APIs, Web Fonts) and browser compatibility issues.",
-        "Dolby Laboratories: Developed methods of testing and measuring the performance of an image processing algorithm in MATLAB. Applied color science to algorithm designs and implemented extensions to a real-time image processing pipeline in C.",
-        "BC Children's Hospital: Developed a Java plugin to interface between network and serial protocols of a medical monitoring device and the iAssist decision support software. Implemented a network protocol and DHCP server from device manufacturer specifications."
+        "PDFTron: Developed an HTML5 / Javascript PDF viewer.",
+        "Dolby Laboratories: Research into color mapping algorithms with Matlab and C.",
+        "BC Children's Hospital: Developed a Java plugin to interface with a medical device."
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "BattleSnake 2016",
-      "position": "Volunteer Platform Developer",
-      "url": "https://www.battlesnake.io/",
-      "startDate": "2015-11-01",
-      "endDate": "2016-02-20",
-      "summary": "Helped update the platform for the BattleSnake programming competition, and acted as a mentor for junior developers at the event."
-    },
-    {
-      "organization": "Ladies Learning Code",
-      "position": "Volunteer Mentor",
-      "url": "http://ladieslearningcode.com/chapters/victoria/",
-      "startDate": "2015-09-26",
-      "endDate": "2017-09-23",
-      "summary": "Mentored new developers at 3 workshops in 2015, 2016, 2017."
     }
   ],
   "education": [
@@ -164,12 +165,12 @@
       ]
     },
     {
-      "name": "Front-End",
-      "keywords": [
-        "HTML/CSS",
-        "Typescript/JavaScript",
-        "React"
-      ]
+      "name": "Databases",
+      "keywords": ["Postgres", "MySQL", "Redis"]
+    },
+    {
+      "name": "Front-end",
+      "keywords": ["HTML/CSS", "Typescript/JavaScript", "React"]
     }
   ],
   "languages": [
@@ -186,10 +187,9 @@
       "name": "Rock climbing"
     },
     {
-      "name": "Hobbiest electronics"
+      "name": "Hobbyist electronics"
     }
   ],
   "references": [],
-  "projects": [
-  ]
+  "projects": []
 }
