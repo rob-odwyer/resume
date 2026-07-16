@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@jsonresume/jsonresume-theme-consultant-polished": "^1.0.1",
+    "jsonresume-theme-consultant-polished-print": "file:themes/consultant-polished-print",
     "jsonresume-theme-cora": "^0.1.1",
     "jsonresume-theme-modern": "^0.0.18",
     "react": "^19.2.4",
