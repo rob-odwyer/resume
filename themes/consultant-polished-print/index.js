@@ -62,8 +62,29 @@ const printStyles = `
 </style>
 `;
 
+// The base theme formats dates with new Date('YYYY-MM-DD'), which parses as
+// UTC midnight and displays a month early in timezones west of UTC. Anchoring
+// each date to local noon keeps the calendar day intact everywhere.
+const toLocalNoon = (value) =>
+  typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)
+    ? `${value}T12:00:00`
+    : value;
+
+const fixDates = (node) => {
+  if (Array.isArray(node)) return node.map(fixDates);
+  if (node && typeof node === 'object') {
+    return Object.fromEntries(
+      Object.entries(node).map(([key, value]) => [
+        key,
+        key === 'startDate' || key === 'endDate' ? toLocalNoon(value) : fixDates(value),
+      ])
+    );
+  }
+  return node;
+};
+
 export const render = async (resume) => {
-  const html = await base.render(resume);
+  const html = await base.render(fixDates(resume));
   return html
     .replace('</head>', `${printStyles}</head>`)
     .replace('</body>', `${sectionTagger}</body>`);
