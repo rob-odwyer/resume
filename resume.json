@@ -4,11 +4,11 @@
   },
   "basics": {
     "name": "Rob O'Dwyer",
-    "label": "Senior Software Engineer: AI Engineering & Cloud Infrastructure",
+    "label": "Senior Software Engineer: Cloud Infrastructure, DevOps, and Automation",
     "image": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
     "email": "odwyerrob@gmail.com",
     "phone": "(250) 891-6649",
-    "summary": "Software engineer with 15+ years of experience spanning startup CTO, Principal Engineer at Workday, and independent infrastructure consulting.",
+    "summary": "Software engineer with 15+ years of experience spanning startup CTO, Principal Engineer at Workday, and independent infrastructure consulting. Specialized in large migration projects across cloud platforms.",
     "location": {
       "city": "Victoria",
       "countryCode": "CA",
@@ -33,10 +33,10 @@
       "position": "Senior Software Engineer",
       "url": "https://www.whalesync.com",
       "startDate": "2025-02-01",
-      "summary": "Owned multiple product and infrastructure projects end to end.",
+      "summary": "Owned product and infrastructure projects end to end for a real-time data sync platform, using AI assisted development to migrate integrations used by hundreds of customers successfully.",
       "highlights": [
-        "Migrated sync integrations to new infra using an AI-assisted harness with automated validation of production data",
-        "Researched and developed generative AI-powered features to streamline the experience of setting up a Whalesync sync"
+        "Migrated sync integrations to new infra using an AI-assisted harness with automated validation of production data.",
+        "Researched and developed features powered by generative AI to streamline the experience of setting up a Whalesync sync."
       ]
     },
     {
@@ -44,11 +44,11 @@
       "position": "Cloud Infrastructure & DevOps",
       "startDate": "2024-01-01",
       "endDate": "2025-02-01",
-      "summary": "Led cloud-based infrastructure migrations for three startups",
+      "summary": "Led cloud-based infrastructure migrations for three startups.",
       "highlights": [
-        "Migrated Whalesync's production and staging infrastructure from AWS to GCP with no downtime",
-        "Built an automated deploy pipeline on AWS for WATS",
-        "Built automated deploy pipelines and observability tooling for OtherSphere"
+        "Migrated Whalesync's production and staging infrastructure from AWS to GCP with no downtime.",
+        "Built an automated deploy pipeline on AWS for WATS.",
+        "Built automated deploy pipelines and observability tooling for OtherSphere."
       ]
     },
     {
@@ -56,10 +56,10 @@
       "position": "Senior Software Engineer",
       "startDate": "2023-03-01",
       "endDate": "2024-01-01",
-      "summary": "Implemented SDKs in multiple languages, built new features for the DevCycle feature flag platform, and maintained DevCycle and Taplytics infrastructure",
+      "summary": "Implemented SDKs in multiple languages, built new features for the DevCycle feature flag platform, and maintained DevCycle and Taplytics infrastructure.",
       "highlights": [
-        "Worked closely with a large customer to optimize the Go SDK for their low-latency usecase, and succeeded in achieving the goal of sub 50 nanosecond 90th percentile lookups in production.",
-        "Built automated release pipelines on Github Actions for Go, Python, Javascript, and Java SDKs to maximize platform compatibility."
+        "Worked closely with a large customer to optimize the Go SDK for their low-latency use case, and succeeded in achieving the goal of sub-50-nanosecond 90th percentile lookups across their production fleet.",
+        "Built automated release pipelines on GitHub Actions for Go, Python, JavaScript, and Java SDKs to maximize platform compatibility."
       ]
     },
     {
@@ -67,10 +67,10 @@
       "position": "Senior Software Developer",
       "startDate": "2021-08-01",
       "endDate": "2023-03-01",
-      "summary": "Responsible for developing and scaling of Battlesnake game engine server and global proxy system.",
+      "summary": "Developed and scaled the Battlesnake game engine server and global proxy system.",
       "highlights": [
         "Built out a global multi-datacenter proxy system to calculate player latency more equitably.",
-        "Engaged with the active Battlesnake developer community through open source and community discussions."
+        "Engaged with a worldwide developer community of thousands through open source contributions and community discussions."
       ]
     },
     {
@@ -78,10 +78,10 @@
       "position": "Principal Software Engineer",
       "startDate": "2017-11-01",
       "endDate": "2021-08-01",
-      "summary": "Developed cloud services for processing video and interactive learning content",
+      "summary": "Developed cloud services for processing video and interactive learning content.",
       "highlights": [
         "Led the migration of a production service along with customer data from the Workday datacenter to AWS.",
-        "Set up and trained a new developer team in Dublin, Ireland."
+        "Interviewed, trained, and mentored a 3-person developer team in Dublin, Ireland."
       ]
     },
     {
@@ -114,8 +114,8 @@
       "endDate": "2011-08-31",
       "summary": "Completed multiple co-op placements during undergraduate studies at UBC.",
       "highlights": [
-        "PDFTron: Developed an HTML5 / Javascript PDF viewer.",
-        "Dolby Laboratories: Research into color mapping algorithms with Matlab and C.",
+        "PDFTron: Developed an HTML5 / JavaScript PDF viewer.",
+        "Dolby Laboratories: Research into color mapping algorithms with MATLAB and C.",
         "BC Children's Hospital: Developed a Java plugin to interface with a medical device."
       ]
     }
@@ -141,12 +141,20 @@
   "publications": [],
   "skills": [
     {
+      "name": "AI Engineering",
+      "keywords": [
+        "LLM API integration (Claude, OpenAI)",
+        "AI-assisted migration tooling",
+        "Agent workflow design"
+      ]
+    },
+    {
       "name": "Languages",
       "keywords": [
         "Python",
         "Go",
-        "Typescript",
-        "Javascript",
+        "TypeScript",
+        "JavaScript",
         "Node.js",
         "Java",
         "C/C++"
@@ -170,15 +178,10 @@
     },
     {
       "name": "Front-end",
-      "keywords": ["HTML/CSS", "Typescript/JavaScript", "React"]
+      "keywords": ["HTML/CSS", "TypeScript/JavaScript", "React"]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
+  "languages": [],
   "interests": [
     {
       "name": "Long distance running"
