@@ -8,7 +8,7 @@
     "image": "https://avatars1.githubusercontent.com/u/92927?v=4&s=100",
     "email": "odwyerrob@gmail.com",
     "phone": "(250) 891-6649",
-    "summary": "Software engineer with 15+ years of experience spanning startup CTO, Principal Engineer at Workday, and independent infrastructure consulting. Specialized in large migration projects across cloud platforms.",
+    "summary": "Software engineer with 15+ years of experience spanning startup CTO, Principal Engineer at Workday, and independent infrastructure consulting. Specialized in large, complex cloud migration projects. Highly experienced in platform infrastructure and DevOps, with a focus on solving complex problems that drive core app requirements including performance, reliability, and migrations.",
     "location": {
       "city": "Victoria",
       "countryCode": "CA",
@@ -40,15 +40,15 @@
       ]
     },
     {
-      "name": "Independent Consultant",
-      "position": "Cloud Infrastructure & DevOps",
+      "name": "",
+      "position": "Cloud Infrastructure & DevOps Consultant",
       "startDate": "2024-01-01",
       "endDate": "2025-02-01",
-      "summary": "Led cloud-based infrastructure migrations for three startups.",
+      "summary": "Led cloud-based infrastructure migrations for three startups:",
       "highlights": [
-        "Migrated Whalesync's production and staging infrastructure from AWS to GCP with no downtime.",
-        "Built an automated deploy pipeline on AWS for WATS.",
-        "Built automated deploy pipelines and observability tooling for OtherSphere."
+        "Whalesync: Migrated production and staging infrastructure from AWS to GCP with no data loss or disruption to customer's sync operations.",
+        "WATS: Built an automated deploy pipeline on AWS.",
+        "OtherSphere: Built automated deploy pipelines and observability tooling."
       ]
     },
     {
@@ -58,8 +58,9 @@
       "endDate": "2024-01-01",
       "summary": "Implemented SDKs in multiple languages, built new features for the DevCycle feature flag platform, and maintained DevCycle and Taplytics infrastructure.",
       "highlights": [
-        "Worked closely with a large customer to optimize the Go SDK for their low-latency use case, and succeeded in achieving the goal of sub-50-nanosecond 90th percentile lookups across their production fleet.",
-        "Built automated release pipelines on GitHub Actions for Go, Python, JavaScript, and Java SDKs to maximize platform compatibility."
+        "Partnered with a flagship customer to optimize the Go SDK for their low-latency use case, and succeeded in achieving the goal of sub-50-nanosecond 90th percentile lookups across their production fleet.",
+        "Built automated release pipelines on GitHub Actions for Go, Python, JavaScript, and Java SDKs to maximize platform compatibility.",
+        "Supported the team's successful SOC 2 audit by documenting architecture, fixing security gaps, and running gameday exercises with the developer team."
       ]
     },
     {
@@ -80,8 +81,8 @@
       "endDate": "2021-08-01",
       "summary": "Developed cloud services for processing video and interactive learning content.",
       "highlights": [
-        "Led the migration of a production service along with customer data from the Workday datacenter to AWS.",
-        "Interviewed, trained, and mentored a 3-person developer team in Dublin, Ireland."
+        "Led the zero-downtime migration of a highly sensitive production service along with customer data from the Workday datacenter to AWS.",
+        "Interviewed, trained, and mentored a 3-person developer team in Dublin, Ireland. Established a satellite team to provide support EU-based partner teams and implement follow-the-sun support practices"
       ]
     },
     {
@@ -90,7 +91,7 @@
       "url": "https://pretiointeractive.com",
       "startDate": "2013-06-01",
       "endDate": "2017-07-21",
-      "summary": "Part of the founding team and responsible for developing Pretio's core technology and growing the development team. Pretio Interactive was an ad-tech startup that combined machine learning and consumer preferences to serve personalized ads.",
+      "summary": "Technical co-founder, responsible for developing Pretio's core technology and growing the development team. Pretio Interactive was an ad-tech startup that combined machine learning and consumer preferences to serve personalized ads.",
       "highlights": [
         "Recruited and trained development team while building the technology platform for Pretio's advertising network.",
         "Designed and built a high throughput HTTP server in Go for integrating into real-time bidding networks, and successfully scaled it to operate at 10K requests/second.",
@@ -103,21 +104,7 @@
       "startDate": "2011-09-01",
       "endDate": "2013-06-01",
       "summary": "The Entrepreneurship@Alacrity program provided an intense training environment to prepare graduates for entrepreneurship in the technology sector.",
-      "highlights": [
-        "Worked with founding team of RewardsDen to develop the team and technology that later became Pretio Interactive."
-      ]
-    },
-    {
-      "name": "Co-op Program Positions",
-      "position": "Software Developer / R&D Engineer",
-      "startDate": "2008-09-01",
-      "endDate": "2011-08-31",
-      "summary": "Completed multiple co-op placements during undergraduate studies at UBC.",
-      "highlights": [
-        "PDFTron: Developed an HTML5 / JavaScript PDF viewer.",
-        "Dolby Laboratories: Research into color mapping algorithms with MATLAB and C.",
-        "BC Children's Hospital: Developed a Java plugin to interface with a medical device."
-      ]
+      "highlights": []
     }
   ],
   "education": [
@@ -182,17 +169,6 @@
     }
   ],
   "languages": [],
-  "interests": [
-    {
-      "name": "Long distance running"
-    },
-    {
-      "name": "Rock climbing"
-    },
-    {
-      "name": "Hobbyist electronics"
-    }
-  ],
   "references": [],
   "projects": []
 }
