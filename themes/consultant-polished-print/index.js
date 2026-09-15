@@ -1,4 +1,4 @@
-import * as base from '@jsonresume/jsonresume-theme-consultant-polished';
+import * as base from '@jsonresume/jsonresume-theme-consultant-polished/dist';
 
 // Sections in the base theme have no stable class names (styled-components
 // hashes), so a small script tags each <section> with its <h2> title. It runs
