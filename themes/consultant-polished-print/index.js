@@ -250,8 +250,16 @@ export const pdfRenderOptions = {
   },
 };
 
+// resumed calls render() identically for `render` and `export`, so the theme
+// cannot tell HTML from PDF on its own. RESUME_TARGET=web says the output is
+// the public web page, which omits the phone number — hiding it in CSS would
+// leave it sitting in the page source for anyone scraping. The PDF keeps it.
 export const render = async (resume) => {
-  const html = await base.render(fixDates(resume));
+  const data = fixDates(resume);
+  if (process.env.RESUME_TARGET === 'web' && data.basics) {
+    delete data.basics.phone;
+  }
+  const html = await base.render(data);
   return html
     .replace('</head>', `${printStyles}</head>`)
     .replace('</body>', `${domTagger}</body>`);
