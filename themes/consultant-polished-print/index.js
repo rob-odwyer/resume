@@ -42,9 +42,13 @@ const printStyles = `
     line-height: 1.45;
   }
 
-  [data-layout] {
-    max-width: none;
-    padding: 0;
+  /* Puppeteer's page margins define the printed column, so the layout fills
+     the page. On screen the base theme's centred 800px column still applies. */
+  @media print {
+    [data-layout] {
+      max-width: none;
+      padding: 0;
+    }
   }
 
   /* Header */
@@ -188,6 +192,26 @@ const printStyles = `
     section[data-section="Education"] > div {
       break-inside: avoid;
       page-break-inside: avoid;
+    }
+  }
+
+  /* The single-line entry header assumes a full-width page. On a phone let it
+     wrap instead of overflowing. */
+  @media screen and (max-width: 640px) {
+    section[data-section="Experience"] > div > div:first-child,
+    section[data-section="Education"] > div > div:first-child {
+      flex-wrap: wrap;
+      gap: 0 0.35rem;
+    }
+    section[data-section="Experience"] h3,
+    section[data-section="Education"] h3 {
+      white-space: normal;
+    }
+    section[data-section="Experience"] > div > div:first-child > div:last-child,
+    section[data-section="Education"] > div > div:first-child > div:last-child {
+      margin-left: 0;
+      padding-left: 0;
+      flex-basis: 100%;
     }
   }
 </style>
