@@ -250,17 +250,33 @@ export const pdfRenderOptions = {
   },
 };
 
+// Web-only: the name is set in Secular One, which is a single-weight (400)
+// face, so the weight is pinned to stop the browser synthesising a fake bold.
+// The PDF keeps the theme's Georgia, and does not depend on a remote font.
+const webHead = `
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<style>
+  [data-hero] h1 {
+    font-family: 'Secular One', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+  }
+</style>
+`;
+
 // resumed calls render() identically for `render` and `export`, so the theme
 // cannot tell HTML from PDF on its own. RESUME_TARGET=web says the output is
 // the public web page, which omits the phone number — hiding it in CSS would
 // leave it sitting in the page source for anyone scraping. The PDF keeps it.
 export const render = async (resume) => {
+  const forWeb = process.env.RESUME_TARGET === 'web';
   const data = fixDates(resume);
-  if (process.env.RESUME_TARGET === 'web' && data.basics) {
+  if (forWeb && data.basics) {
     delete data.basics.phone;
   }
   const html = await base.render(data);
   return html
-    .replace('</head>', `${printStyles}</head>`)
+    .replace('</head>', `${printStyles}${forWeb ? webHead : ''}</head>`)
     .replace('</body>', `${domTagger}</body>`);
 };
